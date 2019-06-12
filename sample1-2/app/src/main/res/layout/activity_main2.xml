@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    android:layout_margin="10dp"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/textView4"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:text="promotion information"
+        android:gravity="center"
+
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="p_id is: 1"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="336dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="p_name is: p1_hot_30percent_off"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="346dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="expiry date is from: may 2018 to june 2019"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="309dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="details: 30percent off limited "
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="382dp" />
+</LinearLayout>
